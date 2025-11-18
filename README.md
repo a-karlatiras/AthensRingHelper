@@ -38,9 +38,9 @@ Android application that helps drivers navigate the Athens Ring ("Δακτύλι
 
 # 🇬🇷 Περιγραφή στα Ελληνικά
 
-Η εφαρμογή **AthensRingHelper** **(Δακτύλιος Αθήνας)** βοηθά τους οδηγούς να γνωρίζουν εάν επιτρέπεται η είσοδος εντός του Δακτυλίου με βάση:
+Η εφαρμογή **AthensRingHelper** (**Δακτύλιος Αθήνας**) βοηθά τους οδηγούς να γνωρίζουν εάν επιτρέπεται η είσοδος εντός του Δακτυλίου με βάση:
 
-- Μονός/ζυγός αριθμός κυκλοφορίας οχήματος 
+- Μονός/ζυγός αριθμός κυκλοφορίας  
 - Ημερομηνία & ώρα  
 - Προσωπικές ρυθμίσεις χρήστη  
 - Πολυγωνική ζώνη του Δακτυλίου  
@@ -49,7 +49,7 @@ Android application that helps drivers navigate the Athens Ring ("Δακτύλι
 - Αποφυγή της ζώνης όταν δεν επιτρέπεται η είσοδος  
 - Πλοήγηση σε πραγματικό χρόνο με προειδοποιήσεις  
 
-Η εφαρμογή **δεν παρέχει φωνητική πλοήγηση**, αλλά εμφανίζει οπτικά μηνύματα όταν:
+Η εφαρμογή **δεν παρέχει φωνητική καθοδήγηση**, αλλά εμφανίζει οπτικά μηνύματα όταν:
 
 - Το όχημα προσεγγίζει τα όρια του Δακτυλίου  
 - Το όχημα εισέρχεται στον Δακτύλιο ενώ δεν επιτρέπεται  
@@ -57,29 +57,47 @@ Android application that helps drivers navigate the Athens Ring ("Δακτύλι
 
 ---
 
+## 🔐 Permissions Used
+
+Η εφαρμογή χρησιμοποιεί τα παρακάτω δικαιώματα:
+
+- **Location (Fine & Coarse)** – για εύρεση θέσης και έλεγχο εισόδου στον Δακτύλιο  
+- **Internet access** – για Google Maps, Places Autocomplete και υπολογισμό διαδρομής  
+- **Microphone (optional)** – χρησιμοποιείται μόνο όταν ο χρήστης ενεργοποιεί τη φωνητική αναζήτηση  
+
+Η εφαρμογή **δεν συλλέγει, αποθηκεύει ή μεταφέρει προσωπικά δεδομένα**.
+
+---
+
 ## 📌 Features
 
 - Google Maps integration  
 - Route optimization  
-- Ring zone polygon (geoJSON)  
+- Ring zone polygon (GeoJSON)  
 - Real-time location monitoring  
 - Voice input (Google Speech-to-Text)  
-- Automatic date/time simulation option  
-- Odd/Even plate parity logic  
+- Automatic date/time simulation  
+- Odd/Even parity logic  
 
 ---
 
 ## 🛠️ Technologies Used
 
-- Kotlin (Android)  
+- Kotlin  
 - Google Maps SDK  
 - Google Places API  
-- GeoJSON polygon processing  
-- Material UI Components  
+- GeoJSON processing  
+- Material Components  
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the full license in the [`LICENSE`](LICENSE) file.
 
 ---
 
 ## © Credits
 
 Developed by **Αθανάσιος Καρλατήρας**
-
