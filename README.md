@@ -4,7 +4,7 @@ Android application that helps drivers navigate the Athens Ring ("Δακτύλι
 
 - Odd/Even license plate rule  
 - Date & time restrictions  
-- User vehicle preferences  
+- User's preferences  
 - Polygon-based geofencing  
 - Real-time map validation  
 - Google Places Autocomplete & voice input  
